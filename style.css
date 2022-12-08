@@ -1,0 +1,12 @@
+@media screen {
+
+}
+
+header {
+    display: flex;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+}
