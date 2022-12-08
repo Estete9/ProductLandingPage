@@ -4,9 +4,54 @@
 
 header {
     display: flex;
-}
+    flex-direction: column;
+    align-items: center;}
 
 #nav-bar {
-    position: fixed;
     top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: red;   
+}
+
+iframe {
+    z-index: -1;
+    position: relative;
+    top: 10%;
+    width: 425px; 
+    height: 240px;
+}
+ul {
+    text-align: right;
+    padding: 0 20px;
+
+}
+
+li {
+    padding: 10px;
+    display: inline;
+    color: white;
+}
+
+img {
+    max-width: 425px;
+    margin: 20px 0px;
+}
+
+#email {
+    border: red 2px solid;
+    padding: 5px;
+    background-color: rgb(255, 109, 109);
+    
+}
+#email::placeholder {
+    color: white;
+}
+
+#submit {
+    border: red 2px solid;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: red;
+    color: white;
 }
